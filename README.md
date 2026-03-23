@@ -3,6 +3,19 @@
 ### **Overview**
 Project X is a specialized security tool designed for **Plausible Deniability**. In high-stakes environments, standard encryption can be a liability if a user is forced to reveal a password. This system solves that by allowing two different messages (Real vs. Decoy) to be stored in a single encrypted payload, protected by separate keys.
 
+---
+
+### **📸 System Execution (Master, Decoy, and Alarm)**
+
+The following screenshot demonstrates the tool's core functionality in a single execution flow:
+1. **Master Access:** Entering the correct secret key to reveal the real mission data.
+2. **Decoy Access:** Entering a secondary key to show a harmless fake message.
+3. **Intruder Alert:** Triggering a security alarm upon an unauthorized password attempt.
+
+![System Demonstration](out.jpg)
+
+---
+
 ### **Key Technical Features**
 - **Deniable Cryptography:** Supports **Master Access** (Real Secret) and **Decoy Access** (Fake Message).
 - **Hardened Key Derivation:** Utilizes **PBKDF2HMAC** with SHA-256 and 480,000 iterations for brute-force resistance.
@@ -22,3 +35,6 @@ Project X is a specialized security tool designed for **Plausible Deniability**.
 - **Language:** Python 3.x
 - **Encryption:** Cryptography (Fernet)
 - **Document Generation:** FPDF
+
+---
+*Developed with a focus on National Security and Advanced Cryptographic Research.* 🇮🇳
