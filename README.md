@@ -12,7 +12,7 @@ The following screenshot demonstrates the tool's core functionality in a single 
 2. **Decoy Access:** Entering a secondary key to show a harmless fake message.
 3. **Intruder Alert:** Triggering a security alarm upon an unauthorized password attempt.
 
-![System Demonstration](out.jpg)
+![System Demonstration](ouput1.jpg)
 
 ---
 
